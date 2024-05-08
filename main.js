@@ -1,7 +1,5 @@
 //Function For Smooth Scroll
 function smoothScroll() {
-  const isMobile = window.matchMedia("(max-width:768px)").matches;
-
   const lenis = new Lenis({
     lerp: 0.05,
     syncTouch: true,
