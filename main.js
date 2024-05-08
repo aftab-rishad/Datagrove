@@ -2,6 +2,7 @@
 function smoothScroll() {
   const lenis = new Lenis({
     lerp: 0.05,
+    syncTouch: true,
   });
 
   function raf(time) {
