@@ -59,7 +59,6 @@ function animation() {
       start: "top 50%",
     },
   });
-  //   gooey: true,
   Shery.textAnimate("#cm-heading h1", {
     style: 1,
     duration: 3,
